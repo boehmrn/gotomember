@@ -1,10 +1,12 @@
 {
-  "name": "fontglobe",
-  "displayName": "fontGlobe",
+  "name": "jump-to-member",
+  "displayName": "Jump to Member",
+  "license": "MIT",
+  "publisher": "robinboehm",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "engines": {
-    "vscode": "^1.89.1"
+    "vscode": "^1.90.0"
   },
   "categories": [
     "Other"
@@ -49,5 +51,9 @@
     "typescript": "^5.4.5",
     "@vscode/test-cli": "^0.0.9",
     "@vscode/test-electron": "^2.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boehmrn/gotomember.git"
   }
 }
